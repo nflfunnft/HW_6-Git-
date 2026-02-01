@@ -230,3 +230,52 @@ p {
 .like__me__ul__svg {
     list-style: none;
 }
+
+.footer {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contacts__title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contacts__text {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.contacts__btn {
+    padding: 10px 28px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.contacts__socials {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.contacts__socials img {
+    width: 40px;
+    height: 40px;
+}
+
+.contacts__like__txt {
+    margin: 0 0;
+    font-size: 14px;
+    color: #828282;
+}
