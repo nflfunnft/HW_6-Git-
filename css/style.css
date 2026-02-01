@@ -1,0 +1,232 @@
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 28px 0 0;
+}
+
+.nav {
+    max-width: 970px;
+    margin: 0 auto;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 28px;
+}
+
+.menu {
+    max-width: 496px;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    width: calc(20% - 4px);
+    text-align: center;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+}
+
+.hero-name {
+    text-align: left;
+    padding: 12px 0 50px;
+    /* відступи зверху від риски до їм'я херо 12px, снизу від ім'я до фото херо 50px */
+}
+
+.hero-name h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #000;
+}
+
+.hero-banner {
+    margin-bottom: 0;
+    /* відстань від фото херо до About Me */
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 387px;
+    /* 387 ? */
+    object-fit: cover;
+}
+
+h2 {
+    margin: 0;
+    font-size: 34px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.about__me {
+    margin-top: 0;
+    padding: 100px 0 120px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F6F6F6;
+    text-align: center;
+    justify-content: center;
+}
+
+.about__me__txt__block {
+    max-width: 480px;
+    max-height: 210px;
+    margin: 50px auto 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__me__txt__block>p {
+    margin-bottom: 0;
+}
+
+/* так у проекті - звуження тексту до низу */
+.about__me__paragraph__01 {
+    margin-top: 0;
+    max-width: 480px;
+}
+
+.about__me__paragraph__02 {
+    margin-top: 30px;
+    max-width: 406px;
+}
+
+.about__me__paragraph__03 {
+    margin-top: 30px;
+    max-width: 321px;
+}
+
+.skills {
+    text-align: center;
+    padding: 100px 0 100px;
+}
+
+.skills__ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.skills__item {
+    width: 180px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+    object-fit: contain;
+}
+
+.skill-title {
+    margin: 0 0 60px 0;
+    font-size: 14px;
+    color: #828282;
+    max-width: 80px;
+}
+
+.skill-title-adobe {
+    margin: 0 0 60px 0;
+    font-size: 14px;
+    color: #828282;
+    max-width: 90px;
+}
+
+.skill-title-figma {
+    margin: 0 0 79px 0;
+    font-size: 14px;
+    color: #828282;
+    max-width: 80px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    /* расстояние между звёздами */
+}
+
+.star {
+    width: 26px;
+    height: 26px;
+}
+
+.portfolio {
+    margin-top: 0;
+    padding: 100px 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.portfolio h2 {
+    margin-bottom: 50px;
+}
+
+.portfolio__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.portfolio__item img {
+    width: 970px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.portfolio__item a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.like__me__ul__svg {
+    list-style: none;
+}
